@@ -1,0 +1,27 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "This app allows users to input names of burgers they want to eat.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhuynh24/burger.git"
+  },
+  "keywords": [
+    "burger"
+  ],
+  "author": "Julian Huynh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhuynh24/burger/issues"
+  },
+  "homepage": "https://github.com/jhuynh24/burger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "mysql": "^2.18.1"
+  }
+}
