@@ -1,1 +1,5 @@
 # burger
+
+For this assignment I followed a set of instructions in order to create an application with many directories and moving parts that all worked together to make a functional Burger tracking page. The database contains the raw set up for the application to gather the necessary information to write onto the front end. Using the config directory, I wrote code to connect to as well as write into the database as the bridge to each end of the code. The controllers directory is responsible for communication the user input on the front end of the app and sending responses back to the server. The models directory performs callbacks to the config directory in order to pass an argument whenever necessary. Finally the views directory contains the handlebars files which allow the backend files to be written onto an interface that is user friendly in a browser. All of these components work simultaneously to create a fully functional application of tracking burgers that the user eats.
+
+![screenshot](https://github.com/jhuynh24/burger/blob/main/public/assets/img/Capture.PNG)
