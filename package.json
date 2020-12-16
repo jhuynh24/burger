@@ -4,7 +4,8 @@
   "description": "This app allows users to input names of burgers they want to eat.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,10 @@
     "express": "^4.17.1",
     "express-handlebars": "^5.2.0",
     "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
+  "production": {
+    "use_env_variable" : "JAWSDB_URL",
+    "dialect": "mysql"
   }
 }
